@@ -1,0 +1,46 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+h2{
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center; /* Centralizar os elementos dentro da lista */
+}
+
+ul li {
+  display: inline; /* Tornar os itens da lista inline */
+}
+
+ul a {
+  padding: 8px;
+  text-decoration: none; /* Para remover o sublinhado dos links */
+  color: rgb(255, 255, 255); /* Cor do texto dos links */
+}
+
+ul a:hover {
+  background-color: rgb(0, 255, 251); /* Cor de fundo quando o mouse está sobre o link */
+  color:black;
+}
+
+.header{
+  padding: 50px;
+  background-color: rgb(0, 0, 0);
+}
+
+.footer {
+  color: #fff;
+  background-color: #000000; /* Cor de fundo do rodapé */
+  padding: 50px 0; /* Espaçamento interno */
+  text-align: center; /* Centralizar o texto */
+  position: fixed; /* Fixar o rodapé na parte inferior da janela */
+  width: 100%; /* Tornar o rodapé tão largo quanto a janela */
+  bottom: 0; /* Posicionar o rodapé na parte inferior da janela */
+}
